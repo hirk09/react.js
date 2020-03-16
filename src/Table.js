@@ -8,7 +8,7 @@ export default class Table extends React.PureComponent {
     let lastcategory = null;
     let rows = [];
     this.props.products.map((product, i) => {
-      if (product.name.indexOf(filterText) === -1) {
+      if (product.name.toLowerCase().indexOf(filterText.toLowerCase()) === -1) {
         return;
       }
       if (instockonly && !product.stocked) {
