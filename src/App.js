@@ -26,13 +26,13 @@ export default class App extends React.PureComponent {
         category: "Electronics",
         price: "$99.99",
         stocked: true,
-        name: "IPod Touch"
+        name: "iPod Touch"
       },
       {
         category: "Electronics",
         price: "$399.99",
         stocked: false,
-        name: "IPhone 5"
+        name: "iPhone 5"
       },
       {
         category: "Electronics",
